@@ -2,146 +2,71 @@
   type: map
   contents:
     - name: Full Name
-      value: Tomiya Yamamoto
+      value: Albert Einstein
+    - name: Date of Birth
+      value: 14th March 1879
     - name: Languages
-      value: Japanese (native), English
+      value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: Doctoral Degree in Engineering
-      institution: Nara Institute of Science and Technology (Nara, Japan)
-      division: the Division of Materials Science
-      course: Data Science Course
-      lab: "Materials Informatics Laboratory (PI: Prof. Mikiya Fujii)"
-      year: 2025.04 - current
-
-    - title: Research Internship Student (Non-Exchange)
-      institution: Nanyang Technological University (Singapore)
-      division: School of Materials Science and Engineering (MSE)
-      lab: "The Hip Laboratory (PI: Assoc. Prof. Kedar Hippalgaonkar)"
-      year: 2025.03 - current
-
-    - title: Research Internship Student (Exchange)
-      institution: Karlsruhe Institute of Technology (Baden-Wurttemberg, Germany)
-      division: Institute of Theoretical Informatics (ITI)
-      lab: "AiMat group (PI: T.T.-Prof. Pascal Friederich)"
-      year: 2024.10 - 2025.01
-
-    - title: Master Degree in Engineering
-      institution: Nara Institute of Science and Technology (Nara, Japan)
-      division: the Division of Materials Science
-      course: Data Science Course
-      lab: "Materials Informatics Laboratory (PI: Prof. Mikiya Fujii)"
-      year: 2023.04 - 2025.03
-
-    - title: Research Student in Engineering
-      institution: Nara Institute of Science and Technology (Nara, Japan)
-      division: the Division of Materials Science
-      lab: "Materials Informatics Laboratory (PI: Prof. Mikiya Fujii)"
-      year: 2023.02 - 2023.03
-
-    - title: English Course
-      institution: ILSC Melbourne (Victoria, Australia)
-      year: 2022.12 - 2023.01
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
-        - English course for 4 weeks
-
-    - title: Master Degree in Engineering
-      institution: Doshisha University (Kyoto, Japan)
-      division: Graduate School of Life and Medical Sciences
-      course: Major of Biomedical Engineering and Informatics
-      lab: "Human Informatics and Systems Laboratory (PI: Prof. Hiroyasu Tomoyuki)"
-      year: 2022.04 - 2022.09
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
       description:
-        - Shifted career focus to Materials Informatics, recognizing its importance in advancing medical devices and leveraging IT knowledge.
+        - Description 1.
+        - Description 2.
 
-    - title: Bachelor Degree in Engineering
-      institution: Doshisha University (Kyoto, Japan)
-      division: Faculty of Life and Medical Sciences
-      course: Department of Biomedical Sciences and Informatics
-      lab: "Human Informatics and Systems Laboratory (PI: Prof. Hiroyasu Tomoyuki)"
-      year: 2018.04 - 2022.03
-  
-
-- title: Research Expeerience
+- title: Experience
   type: time_table
   contents:
-    - title: Doctoral Thesis Research
-      institution: Nara Institute of Science and Technology (Nara, Japan)
-      year: 2025.04 - current
+    - title: Professor of Theoretical Physics
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
       description:
-        - "Development of Generative Models for Photocatalyst Discovery"
-        - under Prof. Mikiya Fujii
-        - This research focuses on developing generative models to discover novel powder-type semiconductor photocatalyst materials with desirable properties.
-
-    - title: Internship Research
-      institution: Nanyang Technological University (Singapore)
-      year: 2025.04 - current
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Visiting Professor
+      institution: California Institute of Technology, Pasadena, California, US
+      year: 1933
       description:
-        - "Development of Generative Models for Inorganic Material Crystal Structure"
-        - under Assoc. Prof. Kedar Hippalgaonkar
-        - This research focuses on developing generative models to propose novel crystal structures, taking into account symmetry and thermodynamic stability.
+        - Description 1.
+        - Description 2.
 
-    - title: Internship Research
-      institution: Karlsruhe Institute of Technology (Baden-Wurttemberg, Germany)
-      year: 2024.10 - 2025.01
+    - title: Director
+      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+      year: 1917-1933
+
+    - title: Professor of Theoretical Physics
+      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+      year: 1911 - 1917
       description:
-        - "Large language models for the automatic extraction of data from scientific literature"
-        - under T.T.-Prof. Pascal Friederich
-        - This study aims to use state-of-the-art large language models (LLMs) to extract tabular data from scientific literature.
-        - In my work, I deployed and fine-tuned pretrained LLMs.
 
-    - title: Master Thesis Research
-      institution: Nara Institute of Science and Technology (Nara, Japan)
-      year: 2023.02 - 2025.03
-      description:
-        - "Multi-Objective Generative Adversarial Networks for Inorganic Chemical Compositions"
-        - under Prof. Mikiya Fujii
-        - This study aims to propose novel inorganic chemical compositions that satisfy multiple desired properties by developing a multi-objective conditional Generative Adversarial Network.
-        - To verify the accuracy of the generation process, I utilized Density Functional Theory (DFT) calculations and an ML model called CSPML, which can predict crystal structures from compositions.
+    - title: Associate Professor of Theoretical Physics
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1909 - 1911
 
-    - title: Research Student Research
-      institution: Nara Institute of Science and Technology (Nara, Japan)
-      year: 2023.02 - 2023.03
-      description:
-        - "Drug Molecule Generation with Variational Auto Encoder"
-        - under Prof. Mikiya Fujii
-        - Generating effective novel drug molecules through gradient-based exploration of the latent space of a Variational Auto Encoder.
-
-    - title: Bachelor Thesis Research
-      institution: Doshisha University (Kyoto, Japan)
-      year: 2021.04 - 2022.09
-      description:
-        - "The Effects of Auditory Stimulation on Episodic Memory: A Neuroscientific Analysis using fNIRS"
-        - under Prof. Hiroyasu Tomoyuki
-        - Using fNIRS, which can measure blood flow in the brain, I investigated the relationship between music and long-term memory.
-
-- title: Conferences and Workshops
+- title: Open Source Projects
   type: time_table
   contents:
-    - year: 2024
-      items:
-        - The 26th Annual Meeting of Japan Society of Theoretical Chemistry (Ibaragi, Japan) - Oral presentation
-        - Authors: Nishijo, M.; Harashima, <u>**Yamamoto, T**</u>, T.; Takasuka, S.; Takayama, T.; Sawada, Y.; ◯Fujii, M.
-        - Title: “The Proposal of Novel Compositions Satisfying Desired Properties Using Generative Adversarial Networks”
-      items:
-          -  Symposium for Reaction Path Search 2024 (Kyoto, Japan) - Poster presentation
-          - Authors: <u>**◯Yamamoto, T**</u>.; Harashima, Y.; Takasuka, S.; Takayama, T.; Sawada, Y.; Fujii, M.
-          - Title: “Extrapolation Search for Inorganic Chemical Compositions Using Multi-Objective Conditional Generative Adversarial Networks”
-      items:
-          - The 18th Annual Meeting of Japan Society for Molecular Science (Kyoto, Japan) - Poster presentation
-          - Authors: <u>**◯Yamamoto, T**</u>.; Harashima, Y.; Takasuka, S.; Takayama, T.; Sawada, Y.; Fujii, M.
-          - Title: “Extrapolation Search for Inorganic Chemical Compositions Using Multi-Objective Conditional Generative Adversarial Networks”
-      items:
-          - The Japan Society of Applied Physics Student Capture Joint Research Conference (Osaka, Japan) - Poster presentation
-          - Authors: <u>**◯Yamamoto, T**</u>.; Harashima, Y.; Takasuka, S.; Takayama, T.; Sawada, Y.; Fujii, M.
-          - Title: “Extrapolation Search for Inorganic Chemical Compositions”
-    - year: 2023
-      items:
-        - The Chemical Society of Japan (Chiba, Japan) - Poster presentation
-        - Authors: <u>**◯Yamamoto, T**</u>.; Nishijo, M.; Harashima, Y.; Takasuka, S.; Takayama, T.; Sawada, Y.; Fujii, M.
-        - Title: “Multi-Objective Generative Adversarial Networks for Inorganic Chemical Compositions”
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
@@ -153,7 +78,6 @@
     - year: 2029
       items:
         - Max Planck Medal
-
 
 - title: Academic Interests
   type: nested_list
