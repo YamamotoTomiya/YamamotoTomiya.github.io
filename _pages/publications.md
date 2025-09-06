@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 description: I will be publishing many papers soon!! Please stay tuned!!
-nav: true
+nav: false
 nav_order: 2
 ---
 
